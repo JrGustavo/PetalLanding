@@ -17,26 +17,25 @@ export default function CoomingSon() {
                             <span className="text-xl font-semibold text-stone-800">Petal flores</span>
                         </div>
 
-                        {/* Navigation - Hidden on mobile */}
                         <nav className="hidden items-center gap-8 md:flex">
-                            <a href="#" className="text-stone-700 hover:text-stone-900 transition-colors">
+                            <Link href="/" className="text-stone-700 hover:text-stone-900 transition-colors">
                                 Inicio
-                            </a>
-                            <a href="#" className="text-stone-700 hover:text-stone-900 transition-colors">
+                            </Link>
+                            <Link href="/nosotros" className="text-stone-700 hover:text-stone-900 transition-colors">
                                 Nosotros
-                            </a>
-                            <a href="#" className="text-stone-700 hover:text-stone-900 transition-colors">
+                            </Link>
+                            <Link href="/flores" className="text-stone-700 hover:text-stone-900 transition-colors">
                                 Flores
-                            </a>
-                            <a href="#" className="text-stone-700 hover:text-stone-900 transition-colors">
+                            </Link>
+                            <Link href="/plantas" className="text-stone-700 hover:text-stone-900 transition-colors">
                                 Plantas
-                            </a>
-                            <a href="#" className="text-stone-700 hover:text-stone-900 transition-colors">
+                            </Link>
+                            <Link href="/suscripciones" className="text-stone-700 hover:text-stone-900 transition-colors">
                                 Suscripciones
-                            </a>
-                            <a href="#" className="text-stone-700 hover:text-stone-900 transition-colors">
+                            </Link>
+                            <Link href="/regalos" className="text-stone-700 hover:text-stone-900 transition-colors">
                                 Regalos
-                            </a>
+                            </Link>
                         </nav>
 
                         {/* Contact Button */}
@@ -85,9 +84,6 @@ export default function CoomingSon() {
                             </div>
 
                             {/* Quote */}
-                            <blockquote className="border-l-4 border-white pl-4 italic text-white">
-                                {`"Eleva los momentos cotidianos con nuestros ramos artesanales."`}
-                            </blockquote>
                         </div>
 
                         {/* Right Content - Flower Showcase */}
@@ -147,16 +143,6 @@ export default function CoomingSon() {
                 </div>
             </section>
 
-            {/* Decorative Elements */}
-            <div className="absolute bottom-0 left-0 opacity-20">
-                <Image
-                    src="/placeholder.svg"
-                    alt="Decorative leaves"
-                    width={200}
-                    height={200}
-                    className="object-contain"
-                />
-            </div>
         </div>
     )
 }
