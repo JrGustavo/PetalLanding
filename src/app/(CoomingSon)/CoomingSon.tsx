@@ -82,8 +82,6 @@ export default function CoomingSon() {
                                     </div>
                                 </div>
                             </div>
-
-                            {/* Quote */}
                         </div>
 
                         {/* Right Content - Flower Showcase */}
