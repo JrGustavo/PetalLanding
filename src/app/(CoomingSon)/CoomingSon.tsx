@@ -78,7 +78,7 @@ export default function CoomingSon() {
                                         <div className="text-sm text-white">Cultivos aliados</div>
                                     </div>
                                     <div>
-                                        <div className="text-2xl font-bold text-white ">12k+</div>
+                                        <div className="text-2xl font-bold text-white">12k+</div>
                                         <div className="text-sm text-white">Clientes felices</div>
                                     </div>
                                 </div>
@@ -86,7 +86,7 @@ export default function CoomingSon() {
 
                             {/* Quote */}
                             <blockquote className="border-l-4 border-white pl-4 italic text-white">
-                                "Eleva los momentos cotidianos con nuestros ramos artesanales."
+                                {`"Eleva los momentos cotidianos con nuestros ramos artesanales."`}
                             </blockquote>
                         </div>
 
@@ -94,7 +94,7 @@ export default function CoomingSon() {
                         <div className="relative">
                             <div className="flex items-center justify-center gap-4">
                                 {/* Navigation Arrow Left */}
-                                <Button variant="ghost" size="icon" className="hidden md:flex">
+                                <Button variant="ghost" size="icon" className="hidden md:flex text-white hover:text-stone-800">
                                     <ChevronLeft className="h-6 w-6" />
                                 </Button>
 
@@ -104,31 +104,31 @@ export default function CoomingSon() {
                                     <div className="text-center">
                                         <div className="relative mb-4 h-64 w-48 mx-auto overflow-hidden rounded-2xl">
                                             <Image
-                                                src="/Flowers.jpg?height=300&width=200"
-                                                alt="January Carnation"
+                                                src="/Flowers.jpg"
+                                                alt="Rosas"
                                                 fill
                                                 className="object-cover"
                                             />
                                         </div>
-                                        <h3 className="font-semibold text-stone-800">Rosas</h3>
+                                        <h3 className="font-semibold text-white">Rosas</h3>
                                     </div>
 
                                     {/* September Aster */}
                                     <div className="text-center">
                                         <div className="relative mb-4 h-64 w-48 mx-auto overflow-hidden rounded-2xl">
                                             <Image
-                                                src="/Claveles.jpg?height=300&width=200"
-                                                alt="September Aster"
+                                                src="/Claveles.jpg"
+                                                alt="Claveles"
                                                 fill
                                                 className="object-cover"
                                             />
                                         </div>
-                                        <h3 className="font-semibold text-stone-800">Claveles</h3>
+                                        <h3 className="font-semibold text-white">Claveles</h3>
                                     </div>
                                 </div>
 
                                 {/* Navigation Arrow Right */}
-                                <Button variant="ghost" size="icon" className="hidden md:flex">
+                                <Button variant="ghost" size="icon" className="hidden md:flex text-white hover:text-stone-800">
                                     <ChevronRight className="h-6 w-6" />
                                 </Button>
                             </div>
@@ -140,7 +140,7 @@ export default function CoomingSon() {
             {/* About Section */}
             <section className="px-4 py-16 md:px-8">
                 <div className="mx-auto max-w-4xl text-center">
-                    <h2 className="mb-6 text-3xl font-bold text-white  md:text-4xl">¡Muy pronto!</h2>
+                    <h2 className="mb-6 text-3xl font-bold text-white md:text-4xl">¡Muy pronto!</h2>
                     <p className="text-lg text-white md:text-xl">
                         La plataforma de flores y plantas frescas que conecta el campo con la ciudad
                     </p>
@@ -150,7 +150,7 @@ export default function CoomingSon() {
             {/* Decorative Elements */}
             <div className="absolute bottom-0 left-0 opacity-20">
                 <Image
-                    src="/placeholder.svg?height=200&width=200"
+                    src="/placeholder.svg"
                     alt="Decorative leaves"
                     width={200}
                     height={200}
