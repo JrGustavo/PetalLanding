@@ -1,10 +1,10 @@
-import CoomingSon from "@/app/(CoomingSon)/CoomingSon";
+import VerySoon from "@/app/(CoomingSon)/VerySoon";
 
 
 export default function Home() {
   return (
     <div>
-      <CoomingSon/>
+      <VerySoon/>
     </div>
   );
 }

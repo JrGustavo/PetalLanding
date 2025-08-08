@@ -4,7 +4,7 @@ import Image from "next/image"
 
 import Link from "next/link"
 
-export default function CoomingSon() {
+export default function VerySoon() {
     return (
         <div className="min-h-screen bg-[#00211E] to-stone-200">
             {/* Header */}
@@ -14,26 +14,26 @@ export default function CoomingSon() {
                         {/* Logo */}
                         <div className="flex items-center gap-2">
                             <Flower2 className="h-6 w-6 text-stone-700" />
-                            <span className="text-xl font-semibold text-stone-800">Petal flores</span>
+                            <span className="text-xl font-semibold text-stone-800">Petal</span>
                         </div>
 
                         <nav className="hidden items-center gap-8 md:flex">
                             <Link href="/" className="text-stone-700 hover:text-stone-900 transition-colors">
                                 Inicio
                             </Link>
-                            <Link href="/nosotros" className="text-stone-700 hover:text-stone-900 transition-colors">
+                            <Link href="/" className="text-stone-700 hover:text-stone-900 transition-colors">
                                 Nosotros
                             </Link>
-                            <Link href="/flores" className="text-stone-700 hover:text-stone-900 transition-colors">
+                            <Link href="/" className="text-stone-700 hover:text-stone-900 transition-colors">
                                 Flores
                             </Link>
-                            <Link href="/plantas" className="text-stone-700 hover:text-stone-900 transition-colors">
+                            <Link href="/" className="text-stone-700 hover:text-stone-900 transition-colors">
                                 Plantas
                             </Link>
-                            <Link href="/suscripciones" className="text-stone-700 hover:text-stone-900 transition-colors">
+                            <Link href="/" className="text-stone-700 hover:text-stone-900 transition-colors">
                                 Suscripciones
                             </Link>
-                            <Link href="/regalos" className="text-stone-700 hover:text-stone-900 transition-colors">
+                            <Link href="/" className="text-stone-700 hover:text-stone-900 transition-colors">
                                 Regalos
                             </Link>
                         </nav>
